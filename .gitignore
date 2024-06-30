@@ -9,6 +9,7 @@ logs/
 profiles.yml
 
 .DS_Store
+.vscode
 
 .user.yml
 

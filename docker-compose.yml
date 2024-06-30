@@ -1,0 +1,17 @@
+version: '2.27'
+
+services:
+  db_pg:
+    image: postgres:latest
+    restart: always
+    environment:
+      POSTGRES_USER: dbt
+      POSTGRES_DB: postgresdb
+      POSTGRES_PASSWORD: tbd
+    ports:
+      - "5432:5432"
+    volumes:
+      - jaffle-shop-pg:/var/lib/postgresql/data
+
+volumes:
+  jaffle-shop-pg:
