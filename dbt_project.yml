@@ -11,7 +11,7 @@ profile: postgres # Put your profile here
 
 model-paths: ["models"]
 analysis-paths: ["analyses"]
-test-paths: ["data-tests"]
+test-paths: ["data-tests", "unit-tests"]
 seed-paths: ["seeds", "jaffle-data"]
 macro-paths: ["macros"]
 snapshot-paths: ["snapshots"]

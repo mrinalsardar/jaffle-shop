@@ -12,6 +12,8 @@ models:
           - unique
       - name: customer_name
         description: Customers' full name.
+      - name: customer_email
+        description: Customers' email id.
       - name: count_lifetime_orders
         description: Total number of orders a customer has ever placed.
       - name: first_ordered_at
